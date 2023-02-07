@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b31950abcbb9d43a53d3851e18935b, type: 3}
+  m_Name: Lightning Projectile
+  m_EditorClassIdentifier: 
+  projectileTexture: {fileID: 21300000, guid: c9c6753a77265f54aaf69d1393775e5b, type: 3}
+  projectileDamage: 4
+  projectileLifeTime: 1.5
+  projectileManaCost: 0
+  projectileCooldown: 0
+  projectileShotForce: 2
+  projectileOffsetRotation: 0
