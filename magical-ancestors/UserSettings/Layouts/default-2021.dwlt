@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 40
+  controlID: 110
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 27
+  controlID: 56
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 28
+  controlID: 57
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -595,22 +595,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\gamin\Desktop\Unity\Projects\GlobalGameJam2023\GGJ
-    2023 - Magical Ancestors
+  m_LastProjectPath: C:\Users\gamin\Desktop\Unity\Projects\magical-ancestors\magical-ancestors
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b6b70000
     m_LastClickedID: 47030
-    m_ExpandedIDs: 00000000606c00006a6c00009c6c00009e6c0000a06c0000a26c0000a46c0000a66c0000a86c0000aa6c0000ac6c0000ae6c0000b06c0000b26c0000b46c0000b66c0000b86c0000ba6c0000bc6c0000be6c0000c06c0000c26c0000c46c0000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -638,21 +637,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000606c00006a6c00009c6c00009e6c0000a06c0000a26c0000a46c0000a66c0000a86c0000aa6c0000ac6c0000ae6c0000b06c0000b26c0000b46c0000bc6c0000be6c0000c06c0000c26c0000c46c0000906e0000a06e0000a46e0000a86e00004e860000f28f00003caa000052aa000006ba000016ba000024ba000028ba00002cba00003cba0000d0d9000040f5000054f5000066f50000d24a0100
+    m_ExpandedIDs: ffffffffeccb000028cc0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: hexForestBroadleaf00
-      m_OriginalName: hexForestBroadleaf00
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 84468
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -765,10 +764,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 32}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b88cfaffa094faffb294faffb494faffbe94faffc894faffda94faffec94fafffe94faff0095faff0a95faff2495faff2e95faff3095faff3295faff3495faff3695faff3895faff3a95faff3c95faff3e95faffa09ffaff08adfaff14adfaff60adfaff84adfaff8eadfaff90adfaff94adfaff96adfaffe2aefafff4aefafff6aefaff00affaff0aaffaff1caffaff2eaffaff40affaff42affaff4caffaff66affaff70affaff72affaff74affaff76affaff78affaff7aaffaff7caffaff7eaffaff80affaffceb0faffe0b0faffe2b0faffecb0fafff6b0faff08b1faff1ab1faff2cb1faff2eb1faff38b1faff52b1faff5cb1faff5eb1faff60b1faff62b1faff64b1faff66b1faff68b1faff6ab1faff6cb1faff6eb1faff30b2faff24c1faff3ec1faff48c1faff4ac1faff4cc1faffcec1faffe8c1fafff2c1fafff4c1fafff6c1faffd6c6fafff0c6fafffac6fafffcc6fafffec6faff66c8fafff6c9faffdacbfaff86d0faff1ed2faffb023fcffee24fcff743bfcffcc52fcff62fefcff3217fdffec17fdff804cfdff364dfdfff04efdff1650fdff6e51fdffa2aafdff76c1ffffc6c2ffff2afbffffb46b0000bc6b0000c66b0000086c0000166c0000226c00002c6c000018d300004ed300006ad3000030d900005ed900007ad900003edd000042dd000086dd0000feed000022ee00002cee000048ee000058ee00007cf200009af20000b2f20000
+      m_ExpandedIDs: cca9ffff8eaaffff9cacffff18d0000082d10000dad3000034d40000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1145,7 +1144,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.22000027, y: 0.49134275, z: -0.12981883, w: -0.83266455}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
